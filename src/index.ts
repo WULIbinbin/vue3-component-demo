@@ -1,1 +1,1 @@
-export * as testDog from './study/implements';
+export * as testDog from './demos/study/implements';
