@@ -16,7 +16,7 @@ module.exports = {
         modules: false,
       },
     ],
-    // '@vue/babel-preset-jsx',
+    '@vue/babel-preset-jsx',
   ],
   plugins: ['@babel/plugin-transform-runtime'],
   env: {
@@ -31,7 +31,7 @@ module.exports = {
             modules: 'commonjs',
           },
         ],
-        // '@vue/babel-preset-jsx',
+        '@vue/babel-preset-jsx',
       ],
     },
     production: {
@@ -42,7 +42,7 @@ module.exports = {
             modules: false,
           },
         ],
-        // '@vue/babel-preset-jsx',
+        '@vue/babel-preset-jsx',
       ],
       plugins: ['@babel/plugin-transform-runtime', '@babel/plugin-proposal-class-properties'],
     },
