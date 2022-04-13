@@ -1,0 +1,1 @@
+export * as testDog from './study/implements';
